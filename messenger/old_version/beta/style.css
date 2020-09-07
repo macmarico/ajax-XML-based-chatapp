@@ -1,0 +1,32 @@
+p {
+    border: 2px solid black;
+    border-radius: 12px;
+    color: 000000;
+    text-align: center;
+}
+.button {
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: black;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.dp {
+border-radius: 50%;
+}
+
+#x {
+    top: 500px
+    border: 2px solid black;
+    border-radius: 12px;
+    color: 000000;
+    text-align: center;
+}

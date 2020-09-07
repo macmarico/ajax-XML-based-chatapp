@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chatspot.in</title>
+<link href="design.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="pc.js" type="text/javascript"></script>
+</head>
+<body class=" body-define ProximaNovaRegular">
+<div class="all">
+	<div class="topbar">
+		<div class="topcont">
+			<div class="slogo">
+		    		    <img src="img_424217.svg" width="17px " class="img"><span> </span>
+		    </div>
+	        <div class="logo">
+		    	 CHATSPOT.IN
+		    </div>
+		    <div class="lout">
+		    	Logout
+		    </div>
+		</div>
+	</div>
+	<div class="midbar">
+		<div class="menuhelper">
+		    <div class="menuli">
+		    	<div>
+		    		<div>
+		    			<div class="avatar"><img src="contact.svg" width="50px" alt="avatar" class="">
+	                    </div>
+	                </div>
+	                <div class="pcname"> Username
+	                </div>
+		    	</div>
+		    	<div class="bt">
+		    		<a href="#lishower-1" class="btn act">USERS</a>
+		    	</div>
+		    	<div class="bt">
+		    		<a href="#lishower-2" class="btn">ONLINE</a>
+		    	</div>
+		    	<div class="bt">
+		    		<a href="#lishower-3" class="btn">INBOX</a>
+		    	</div>
+		    </div>
+		    <div class="upload-btn-wrapper pcfoot">
+  <button class="btnn">Upload Profile Picture</button>
+  <input type="file" name="myfile" />
+</div>
+		    <div class="pcfoot">
+		&copy;2018 chatspot.in | All Rights reserved
+	            </div>
+		</div>
+		<div id="show">
+			<div class="nmshow">
+				Menu Name
+			</div>
+			<div id="lishower-1" class="lishower" >
+				<div class="shower">
+					<a href="#chatshower-1"class="pers" >user1</a>
+				</div>
+				<div class="shower">
+					<a href="#chatshower-2" class="pers">user2</a>
+				</div>
+			</div>
+			<div id="lishower-2" class="lishower hidden" >
+				<div class="shower">
+					<a href="#chatshower" class="pers">online1</a>
+				</div>
+				<div class="shower">
+					Online 1
+				</div>
+			</div>
+			<div id="lishower-3" class="lishower hidden">
+				<div class="shower">
+					<a href="#chatshower" class="pers">user1</a>
+				</div>
+				<div class="shower">
+					msg2
+				</div>
+			</div>					
+		</div>
+		<div class="chat">
+			<div class="nmchat">
+				Personname
+			</div>
+			<div id="lichat">
+				<div id="chatshower-1" class="chatshower">
+					<div class="messages">
+						BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 
+					</div>
+					<div class="messages">
+						11111111111111111111111111111111111111111111111111111111111111111111111333333333333333333333333333333333334444444444444444444444444444444444444455555555555555555555555
+					</div>
+				</div>
+				<div id="chatshower-2" class="chatshower hidden">
+					<div class="messages">
+						AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
+					</div>
+					<div class="messages">
+						mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+					</div>
+				</div>
+			</div>
+			<div class="msgbox">
+				<div class="minbox">
+					<input type="text" name="message"  placeholder="Type Message" class="width minbox ProximaNovaRegular inpdes msginput" />
+					<input type="hidden" name="recivernm" value="<?php echo $recivernm ; ?>">
+				</div>
+				<div class="msndbut">
+					<input type="submit" name="login"  value="SEND" class="ProximaNovaRegularBold msndbut indes msendbut " />
+				</div>
+			</div>
+		</div>
+		<div class="chat">
+			<div class="cnmchat">
+				Club
+			</div>
+			<div id="lichat">
+				<div id="chatshower-1" class="chatshower">
+					
+				</div>
+			</div>
+			<div class="msgbox">
+				<div class="minbox">
+					<input type="text" name="message"  placeholder="Type Message" class="width minbox ProximaNovaRegular inpdes msginput" />
+					<input type="hidden" name="recivernm" value="<?php echo $recivernm ; ?>">
+				</div>
+				<div class="msndbut">
+					<input type="submit" name="login"  value="SEND" class="ProximaNovaRegularBold  indes cmsendbut " />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

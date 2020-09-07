@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.feedSection{
+	
+  min-height: 300px;
+  height: auto;
+  padding: 5px 20px 5px 10px;
+  overflow-x: hidden;
+  border-top: 1px solid #f1f1f1;
+ background-color: #F9F9F9;
+}
+
+.feedLayt{
+
+	background: white;
+	  width: 100%;
+  
+        margin: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	
+}
+
+.PostProfilePic{
+	
+  width: auto;
+  float: left;
+  height: 30px;
+
+
+}
+
+.postusername{
+	
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+        padding: 7px;
+        margin-left: 30px;
+        
+        
+}
+
+.PostContent{
+	
+	margin-left: 30px;
+    width: auto;
+  padding: 0px 7px 5px;
+  font-size: 17px;
+        border:none;
+        background:transparent;
+        text-align:justify;
+        cursor:pointer;
+
+}

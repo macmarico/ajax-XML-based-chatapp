@@ -1,0 +1,403 @@
+@charset "utf-8";
+@font-face {
+    font-family: ProximaNovaRegular;
+    src: url('fonts/ProximaNovaRegular.ttf');
+}
+.ProximaNovaRegular {
+    font-family: ProximaNovaRegular;
+}
+.ProximaNovaRegularBold {
+    font-family: ProximaNovaRegular;
+    font-weight: bold;
+}
+body{
+	margin: 0px;
+}
+/* general */
+
+.container{
+	width:calc(100% - 16px);
+	margin-left:8px;
+	margin-right:8px;
+	clear: both;
+}
+.row{
+	display: 96%;
+	margin: 0px 2%;
+}
+.rowcontainer{
+	display: inline-block;
+	float: left;
+}
+.textcenter{
+	text-align: center;
+}
+.textbold{
+	font-weight: bold;
+}
+.borderbottom{
+	border-bottom:3px solid #f1f1f1; 
+}
+.clean{
+	padding: 5px 0px;
+}
+/* 
+color main - 0, 110, 81, 62, 46, 1.0)
+yellow 230, 206, 25
+
+*/
+.mycolor{
+	color: rgba(240, 81, 62, 1.0); 
+}
+.mycolorback {
+	background-color:rgba(240, 81, 62, 1.0);
+	border-radius: 10px;
+	color: #fff !important ; 
+}
+.mycolorlight,.msgbox{
+    background-color: rgba(240, 81, 62, 0.10);
+}
+.mycolordark,.submiti{
+    color: rgba(240, 81, 62, 0.60);
+}
+.italic,.inputi{
+	font-style: italic;
+}
+.roundcorner{
+	border: 3px solid rgba(240, 81, 62, 0.10);
+	border-radius: 10px;
+	background-color: #fafafa
+}
+
+/* layout */
+.content{
+	overflow-y: hidden;
+	height:  calc(100vh - 1px);
+}
+.centerbar,.rightbar,.leftbar{
+	height: 100vh;
+	float: left;
+}
+.leftbar{
+	width: 11%;
+}
+.centerbar{
+	width: calc(78% - 2px);
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+}
+.rightbar{
+    width: 11%;
+}
+.first,.second{
+	display: inline-block;
+	float: left;
+}
+.first{
+	width:calc(61.8% - 2px);
+	height: 100%;
+}
+.second{
+    width: calc(38.2% -  10px);
+    height: 100%;
+    
+}
+.third{
+    width: 100%;
+    height: 61.8vh;
+	clear:left;
+	
+}
+.four{
+	width: 100%;
+	height: 38.2vh;
+}
+.five,.six{
+	display: inline-block;
+	float: left;
+}
+.five{
+	width:calc(38.2% - 2px);
+	height: 100%;
+}
+.six{
+	
+    width: calc(61.8% - 10px);
+    height: 100%;
+}
+/* leftbar */
+.profile{
+	padding: 8px 0px;
+	font-size: 16px;
+	color: #777; 
+}
+.username,.dp{
+	float: left;
+}
+.dp{
+	width: 20%;
+	height: 30px;
+}
+.Fusername{
+	width: 80%;
+	height: 30px;
+	line-height: 2;
+	color: #777;
+	font-size: 16px;
+
+}
+.status{
+	padding: 8px 0px;
+	color: #aaa;
+	font-size: 14px;
+}
+.about,.copy{
+    padding: 3px 0px;
+    color: #aaa;
+    font-size: 14px;
+}
+.logout{
+	color: #aaa;
+	height: 20px;
+	width: auto;
+	font-size: 14px;
+	transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    margin: 10px 0px;
+}
+.logout:hover{
+	min-width: 10px;
+	color: #777;
+	cursor:pointer;
+    height: 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-decoration-line: underline;
+}
+/* centerbar */
+.online,.club, .inbox, .name{
+	color: #777;
+}
+.onlyt, .cllyt, .inlyt, .nmlyt{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cllyt{
+	height: calc(100% - 29px)
+}
+.clshow {
+	width:100%;
+	height: calc(100% - 30px);
+	overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.nmshow{
+	width:100%;
+	height: calc(100% - 60px);
+	overflow-y: scroll;
+    overflow-x: hidden;
+}
+.msgbox{
+	position: absolute;
+	height: 30px;
+	width: 100%;
+}
+.input{
+	width: 70%;
+}
+.submit{
+	width:30px; 
+	float: right;
+	margin-right: 30px;
+}
+.submiti{
+	height: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+.inputi{
+    width: 100%;
+    border: none;
+    background: transparent;
+    height: 30px;
+    padding: 0px 5px;
+}
+.inputi:focus{
+	outline: none;
+}
+.ondis{
+    padding: 8px 0px;
+    width: 100%;
+    height:53px;
+}
+.namestatus{
+	margin: 8px auto ;
+}
+.cldis{
+	padding: 8px 0px;
+    width: 100%;
+    height:53px;
+}
+.indis{
+	padding: 5px 0px;
+    width: 100%;
+    height:13px;
+    color: #444;
+    cursor: pointer;
+	transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+}
+.indis:hover{
+	font-weight: bold;
+}
+.nmdis{
+	margin: 5px auto;
+	padding: 3px 0px;
+    height:auto;
+    color: #444;
+    border: 1px solid #f1f1f1;
+}
+.nmdismsg{
+	height: 21px; 
+	width: 100%;
+}
+.nmdismsgicon{
+    float: right;
+    margin-right: 20px
+}
+
+/* rightbar */
+.users{
+	color: #777
+}
+.uslyt{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;	
+}
+.usernames{
+	height: 18px;
+	margin: 5px 0px;
+}
+.useravatar{
+		margin: 5px 3px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:transparent; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E9E9E9; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+
+
+
+
+.simbut{
+    color:#333;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-align: center;
+    
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.row > div {
+  display: inline-block;
+}
+
+.b1{
+  width: auto;
+  float: left;
+  height: 30px;
+}
+
+.messeging{
+  width: 90%;
+  margin: auto;
+  padding: 5px 10px;
+  word-wrap: break-word;
+}
+
+.cmsgin{
+  color: #333;
+}
+
+
+.stsname{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    text-align: center;
+    font-size: 13px;
+  font-weight: bold;
+  color:#f43e2e;
+}
+
+.dstatus{
+    width: 100%;
+  padding: 0px 5px;
+  font-size: 20px;
+        border:none;
+        background:transparent;
+        text-align:left;
+            cursor:pointer;
+
+}
+
+
+.dmotive{
+    width: 100%;
+  padding: 0px 5px;
+  font-size: 25px;
+        border:none;
+        background:transparent;
+        text-align:justify;
+        cursor:pointer;
+
+}
+
+.memlayt{
+  width: 90%;
+  margin: auto;
+  padding: 3px 5px;
+  border-bottom: 5px solid #f9f9f9;
+}
+
+
+img.sharedimg {
+  width: 75%;
+  margin: 5px 0px;
+  padding: 5px;
+  border-radius: 5%;
+  border: 1px solid #f1f1f1; 
+}
+
+
+
+
